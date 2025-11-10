@@ -1,0 +1,45 @@
+body {
+    font-family: "Arial", "Helvetica", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    text-decoration: underline;
+    text-indent: 24px;
+    margin-bottom: 16px;
+}
+
+p:first-of-type {
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+p:last-of-type {
+    font-style: oblique;
+    text-transform: lowercase;
+    transition: color 0.3s ease;
+}
+
+p:last-of-type:hover {
+    color: #0077cc;
+}
+
+a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:hover {
+    text-transform: capitalize;
+}
+
